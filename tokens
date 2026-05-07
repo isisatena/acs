@@ -18,6 +18,31 @@
     "$value": "#333333",
     "$description": "Buttons"
   },
+  "Button Gradient 1": {
+    "$type": "gradient",
+    "$value": [
+      {
+        "color": "#ADBBBD",
+        "position": 0
+      },
+      {
+        "color": "#ADBBBD",
+        "position": 0.4580526351928711
+      },
+      {
+        "color": "#0A0809",
+        "position": 0.4663461446762085
+      },
+      {
+        "color": "#0A0809",
+        "position": 0.9998999834060669
+      },
+      {
+        "color": "#585858",
+        "position": 1
+      }
+    ]
+  },
   "Dividers Style": {
     "$type": "shadow",
     "$value": {
@@ -51,16 +76,6 @@
     },
     "$description": "This is for Mockup"
   },
-  "Drop shadow 01": {
-    "$type": "shadow",
-    "$value": {
-      "blur": "30px",
-      "color": "#00000040",
-      "spread": "10px",
-      "offsetX": "10px",
-      "offsetY": "10px"
-    }
-  },
   "Gradient": {
     "$type": "gradient",
     "$value": [
@@ -91,38 +106,15 @@
     "500": {
       "$type": "color",
       "$value": "#9E9E9E"
-    }
-  },
-  "H2": {
-    "$type": "typography",
-    "$value": {
-      "fontSize": "24px",
-      "fontFamily": "Myriad Pro",
-      "fontWeight": 700,
-      "lineHeight": 1.2,
-      "letterSpacing": "0px"
-    }
-  },
-  "Header_H1": {
-    "$type": "typography",
-    "$value": {
-      "fontSize": "32px",
-      "fontFamily": "Arial Rounded MT Bold",
-      "fontWeight": 400,
-      "lineHeight": 1.13,
-      "letterSpacing": "-0.6px"
-    }
-  },
-  "Heading 1": {
-    "$type": "typography",
-    "$value": {
-      "fontSize": "48px",
-      "fontFamily": "Exotc350 Bd BT",
-      "fontWeight": 400,
-      "lineHeight": 1.17,
-      "letterSpacing": "0px"
     },
-    "$description": "This is for the Heading 1"
+    "600": {
+      "$type": "color",
+      "$value": "#757575"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#212121"
+    }
   },
   "Light Background": {
     "$type": "color",
@@ -148,27 +140,6 @@
   "Shadow": {
     "$type": "color",
     "$value": "#E2D4D0"
-  },
-  "Small Text 01": {
-    "$type": "typography",
-    "$value": {
-      "fontSize": "12px",
-      "fontFamily": "Roboto",
-      "fontWeight": 700,
-      "lineHeight": 1.17,
-      "letterSpacing": "0px"
-    }
-  },
-  "Text": {
-    "$type": "typography",
-    "$value": {
-      "fontSize": "30px",
-      "fontFamily": "Myriad Pro",
-      "fontWeight": 700,
-      "lineHeight": 1.2,
-      "letterSpacing": "0px"
-    },
-    "$description": "This is for Main Text"
   },
   "White": {
     "$type": "color",
